@@ -45,6 +45,7 @@ export default {
   name: 'CheckListEntry',
   data() {
     return {
+      unchecked: true,
       checkListItem: '',
     };
   },
@@ -59,6 +60,7 @@ export default {
   methods: {
     getCheckListItem() {
       return {
+        unchecked: true,
         checkListItem: this.checkListItem,
       };
     },

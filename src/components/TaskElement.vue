@@ -50,9 +50,6 @@ export default {
   data() {
     return {};
   },
-  created() {
-    console.log('created');
-  },
   components: {
     CheckListElement,
     CheckListEntry,
