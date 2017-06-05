@@ -1,14 +1,16 @@
 <style rel="stylesheet/scss"
        lang="scss">
   .checkList {
-    &--
+    &--item {
+
+    }
   }
 
 </style>
 <template>
   <div class="checkList">
     <!--<div class="fr tdlist-block__close"  @click="removeTask">&times;</div>-->
-    <div class="checkList__item" v-if="unchecked">{{ checkListItem.checkListItem }}</div>
+    <div class="checkList__item">{{ checkListItem.checkListItem }}</div>
     <div class="clr"></div>
   </div>
 </template>
