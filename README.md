@@ -1,4 +1,5 @@
 # to-do-list
+A simple implementation of a to-do-list built using Vue components.
 
 > A Vue.js project
 
